@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Feihuobuke.Battleship.Library.CategoryDao, Feihuobuke.Battleship.Library" table="Category" >
+    <id name="Id" column="Id">
+      <generator class="identity" />
+    </id>
+    <property name="CategoryId" column="CategoryId" />
+    <property name="Name" column="Name" />
+    <property name="Active" column="Active" />
+  </class>
+</hibernate-mapping>
